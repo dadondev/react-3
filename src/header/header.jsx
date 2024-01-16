@@ -1,5 +1,5 @@
 import Form from "../form/Form";
-import Navbar from "../navbar/navbar";
+import Navbar from "../navbar/Navbar";
 import styles from "./header.module.css";
 function Header() {
   return (
