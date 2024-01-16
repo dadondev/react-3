@@ -1,4 +1,4 @@
-import Header from "./header/header";
+import Header from "./header/Header";
 import TodosList from "./list/Todos";
 function App() {
   return (
