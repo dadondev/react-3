@@ -1,0 +1,9 @@
+.todos {
+  max-width: 540px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+  transform: translateY(-40px);
+  border-radius: 5px;
+}

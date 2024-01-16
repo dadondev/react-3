@@ -1,0 +1,19 @@
+.Navbar {
+  max-width: 540px;
+  align-items: center;
+  margin: 0 auto 4rem;
+  display: flex;
+  padding-top: 10rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+}
+
+@media (max-width: 590px) {
+  .Navbar {
+    padding-top: 3.5rem;
+  }
+}

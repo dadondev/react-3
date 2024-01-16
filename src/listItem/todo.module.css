@@ -1,0 +1,25 @@
+.todo {
+  padding: 20px 24px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  border-bottom: 2px solid #e3e4f1;
+}
+.todoText {
+  color: #494c6b;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+.btn {
+  display: none;
+  background-color: inherit;
+  transition: all 300ms;
+  border: none;
+}
+@media (hover: hover) {
+  .todo:hover .btn {
+    display: block;
+  }
+}
