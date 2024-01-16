@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styles from "./form.module.css";
 import todosMemory from "../list/todosMemory";
-import TodosList from "../list/Todos";
 
 function Form() {
   const [todos, setTodos] = useState([]);
